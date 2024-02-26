@@ -1,0 +1,17 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./usuarios.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model usuarios {
+  id         Int     @id @map("id")
+  nome       String  @map("nome")
+  senha      String  @map("senha")
+  foto       String? @map("foto")
+
+  @@map("usuarios")
+}
