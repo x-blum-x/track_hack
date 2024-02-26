@@ -5,7 +5,7 @@ O código presente no diretório visualizado se trata da resolução da matéria
 Tendo sido desenvolvido no presente estado atual com o ambiente de produção em NodeJs, utilizando Javascript, com bibliotecas e superconjuntos como React e Typescript, além de frameworks e ferramentas como Express e Prisma.
 
 
-# Frontend
+## Frontend
 
 Atualmente consiste em duas páginas, **Login** e **UserHome**.
 - A página Login é responsável por:
@@ -20,7 +20,7 @@ Atualmente consiste em duas páginas, **Login** e **UserHome**.
 	> Exibir nome e tempo de duração do token;
 	> Possibilitar a inserção de uma imagem para a conta.
 
-# Backend
+## Backend
 
 Atualmente o backend esta criando 4 rotas com um servidor em Javascript utilizando o framework Express, sendo elas:
 - /api/cadastro:
